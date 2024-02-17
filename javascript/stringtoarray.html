@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>string to array</title>
+</head>
+<body>
+    <h2>Javascript String Methods</h2>
+    <p>Display the First array element, after a string split:</p>
+    <p id="demo">
+
+    </p>
+
+    <script>
+        let text = "a,b,c,d,e,f";
+        const array = text.split(",");
+        document.getElementById("demo").innerHTML=array[2];
+    </script>
+</body>
+</html>

@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .main {
+            display: inline-flex;
+            padding: 15px;
+            width: 405px;
+        }
+
+        h1 {
+            animation: vatsal;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+        }
+
+        @keyframes vatsal {
+            0% {
+                transform: translate3d(0, -100%, 0);
+                visibility: visible;
+            }
+
+            100% {
+                transform: translateZ(0);
+            }
+        }
+
+        .main2 {
+            display: block;
+        }
+
+        .btn1{
+            background-color: aqua;
+            color: black;
+            border: none;
+            padding: 15px;
+            width: 100px;
+            animation: enimy;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+        }
+        .btn2{
+            background-color: aliceblue;
+            color: black;
+            border: none;
+            padding: 15px;
+            width: 100px;
+            animation: enim;
+            animation-duration: 2s;
+            animation-iteration-count: 1;
+        }
+        @keyframes enimy{
+        0%{
+                transform: translate3d(-100px,0,0);
+                visibility: visible;
+            }
+            100%{
+                transform: translatez(0);
+            }
+        }
+        @keyframes enim{
+        0%{
+                transform: translate3d(+100px,0,0);
+                visibility: visible;
+            }
+            100%{
+                transform: translatez(0);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main">
+        <div class="main1">
+            <h1>17</h1>
+            <p>years+ huge expiriance</p>
+        </div>
+        <div class="main1">
+            <h1>10K+</h1>
+            <p>succsessfull students</p>
+        </div>
+        <div class="main1">
+            <h1>100%</h1>
+            <p>project base training</p>
+        </div>
+        <div class="main1">
+            <h1>100%</h1>
+            <p>job cources</p>
+        </div>
+
+    </div>
+    <div class="main2">
+        <h1>IT KNOWLEDGE FOR JOB</h1>
+        <p>Education is not just about going to school and getting a degree. It's about widening your knowledge and
+            absorbing the truth about life.</p>
+    </div>
+    <div class="btn">
+        <button class="btn1">Read more</button>
+        <button class="btn2">join now</button>
+    </div>
+</body>
+
+</html>

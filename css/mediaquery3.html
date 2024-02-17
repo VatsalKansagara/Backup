@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: aqua;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        div {
+            display: none;
+        }
+
+        @media screen and (max-width:1920px) {
+
+            body {
+                background-color: burlywood;
+            }
+
+            .s1920 {
+                display: block;
+            }
+
+        }
+
+        @media screen and (max-width:1600px) {
+
+            body {
+                background-color: aquamarine;
+            }
+
+            .s1920 {
+                display: none;
+            }
+
+            .s1600 {
+                display: block;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="s1920">
+        <h1>BIG DISPLAY</h1>
+    </div>
+
+    <div class="s1600">
+        <h1>LARGE LAPTOP</h1>
+    </div>
+</body>
+
+</html>
